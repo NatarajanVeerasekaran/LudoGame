@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+
+td{
+    width:35px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    white-space: nowrap;
+    padding: 5px;   
+    font-size:25px;
+    font-weight: bold;
+}
+
+table{
+    border: none;
+    display: inline;
+}
+

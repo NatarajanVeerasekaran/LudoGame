@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Ludo game</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+
+<body>
+    <div>
+        <table cellspacing="0" cellpadding="0">
+            <tbody id="LudoTBody"></tbody>
+            <tfoot>
+                <tr>
+                    <td id="LudoTFootTd" colspan="21">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <div style="display: inline;padding-left: 10%;">
+            <table id="PlayerTable" style="padding-top: 10px;">
+                <tbody id="PlayerSelectionTBody">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        &nbsp;
+                    </tr>
+                    <tr>
+                        <td id="StartBtn" StartGame="3" style="text-align: center;color: gray;">
+                            Start
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <table id="DiesTable" style="display: none;">
+                <tbody id="DiesTBody">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        &nbsp;
+                    </tr>
+                    <tr>
+                        <td id="PlayTD" onclick="Play()" colspan="3"
+                            style="text-align: center;cursor: pointer;color:white;background-color: red;">
+                            Play
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="scripts/main.js"></script>
+
+</html>
